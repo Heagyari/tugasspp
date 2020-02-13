@@ -18,7 +18,7 @@
                 <form action="tambah_aksi.php" method="post">
                     <div class="form-group">
                         <label for="nisn">NISN :</label>
-                        <input type="text" class="form-control" id="nisn" name="nisn" placeholder="Isi NISN">
+                        <input type="text" class="form-control" id="nisn" name="nisn" placeholder="Isi NISN" required>
                     </div>
                     <div class="form-group">
                         <label for="nis">NIS :</label>
@@ -26,27 +26,27 @@
                     </div>
                     <div class="form-group">
                         <label for="nama">Nama :</label>
-                        <input type="text" class="form-control" id="nama" name="nama" placeholder="Isi nama">
+                        <input type="text" class="form-control" id="nama" name="nama" placeholder="Isi nama" required>
                     </div>
                     <div class="form-group">
                         <label for="id_kelas">ID Kelas :</label>
-                        <input type="number" class="form-control" id="id_kelas" name="id_kelas" placeholder="Isi ID KELAS">
+                        <input type="number" class="form-control" id="id_kelas" name="id_kelas" placeholder="Isi ID KELAS" required>
                     </div>
                     <div class="form-group">
                         <label for="alamat">Alamat :</label>
-                        <textarea name="alamat" id="alamat" rows="3" class="form-control"></textarea>
+                        <textarea name="alamat" id="alamat" rows="3" class="form-control" required></textarea>
                     </div>
                     <div class="form-group">
                         <label for="no_telp">No Telp :</label>
-                        <input type="number" class="form-control" id="no_telp" name="no_telp" placeholder="Isi No Telp">
+                        <input type="number" class="form-control" id="no_telp" name="no_telp" placeholder="Isi No Telp" required>
                     </div>
                     <div class="form-group">
                         <label for="id_spp">ID SPP :</label>
-                        <input type="number" class="form-control" id="id_spp" name="id_spp" placeholder="Isi ID SPP">
+                        <input type="number" class="form-control" id="id_spp" name="id_spp" placeholder="Isi ID SPP" required>
                     </div>
                     <div class="">
                         <button type="submit" class="btn btn-sm btn-success btn-block">Kirim</button>
-                        <button type="submit" class="btn btn-sm btn-outline-primary btn-block mb-3">Kembali</button>
+                        <A href="index.php" class="btn btn-sm btn-outline-primary btn-block mb-3">Kembali</A>
                     </div>
                 </form>
             </div>

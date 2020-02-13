@@ -44,7 +44,7 @@
                             <td><?= $result['no_telp'] ?></td>
                             <td class="text-center"><?= $result['id_spp'] ?></td>
                             <td class="text-center">
-                                <a href="#" class="btn btn-sm btn-success mx-1 my-1">Edit</a>
+                                <a href="edit.php?nisn=<?php echo $result['nisn']; ?>" class="btn btn-sm btn-success mx-1 my-1">Edit</a>
                                 <a href="#" class="btn btn-sm btn-danger mx-1 my-1">Delete</a>
                             </td>
                         </tr>
