@@ -18,6 +18,7 @@
 
 <?php endforeach ?>
     <form action="update.php" method="post">
+        <input type="hidden" name="nisnId" value="<?= $query2->nisn ?>">
         <label for="nisn">NISN</label>
         <input type="text" name="nisn" id="nisn" value="<?= $query2->nisn; ?>">
         <br>
